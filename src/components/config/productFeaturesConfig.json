@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Powerful Dashboard",
+    "text": "All-in-one dashboard with essential key performance metrics and next-gen graphing capabilities.",
+    "icon": "/assets/teikametrics/plans/dashboard.svg"
+  },
+  {
+    "title": "Unlimited SP Campaigns",
+    "text": "No limits or maximums. Run as many Sponsored Products campaigns as you’d like. ",
+    "icon": "/assets/teikametrics/plans/bullhorn.svg"
+  },
+  {
+    "title": "Targeted Keyword Suggestions",
+    "text": "Easy to execute keyword actions make reducing wasted ad spend and increasing profitability simple",
+    "icon": "/assets/teikametrics/plans/keyworddiscovery.svg"
+  },
+  {
+    "title": "Expert Support",
+    "text": "Never go alone again. Take advantage of online, expert chat with our Customer Success team. ",
+    "icon": "/assets/teikametrics/plans/chat.svg"
+  },
+  {
+    "title": "Value-based Bidding",
+    "text": "With our value-based bidding automation you’ll never pay too much (or too little) for a bid again.",
+    "icon": "/assets/teikametrics/plans/auction.svg"
+  },
+  {
+    "title": "Your Data, Your Way",
+    "text": "Our calendar allows you to see your data in a daily, weekly, monthly, yearly, or even custom view. ",
+    "icon": "/assets/teikametrics/plans/calendar.svg"
+  }
+]

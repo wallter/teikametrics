@@ -1,0 +1,63 @@
+.pricing-cards {
+
+  @include media-breakpoint-up(md) {
+    box-shadow: 0px 10px 30px 12px rgba(56, 62, 68, 0.14);
+  }
+
+  .pricing-card {
+    @include media-breakpoint-down(sm) {
+      box-shadow: 0px 10px 30px 12px rgba(56, 62, 68, 0.14);
+    }
+
+    & .card-header {
+      border-radius: 0px;
+      border-bottom: 0px;
+      transition: background-color .15s linear;
+      transition: border-color .15s linear;
+
+      &.bg-primary {
+        border-left: solid $card-border-width darken($primary, 15%);
+      }
+
+      &.bg-secondary {
+        border-left: solid $card-border-width darken($secondary, 15%);
+      }
+    }
+
+    & .card-body {
+      border-radius: 0px;
+      border-left: solid $card-border-width $gray-300;
+    }
+
+    &:first-child {
+      .card-header {
+        border-left: 0;
+        border-top-left-radius: $border-radius
+      }
+
+      .card-body {
+        border-left: 0;
+        border-bottom-left-radius: $border-radius
+      }
+    }
+
+    &:last-child {
+      .card-header {
+        border-top-right-radius: $border-radius
+      }
+
+      .card-body {
+        border-bottom-right-radius: $border-radius
+      }
+    }
+
+    hr {
+      width: 50%
+    }
+
+    .card-subtitle {
+      color: $gray-500;
+    }
+  }
+
+}

@@ -1,0 +1,16 @@
+
+section {
+  padding: ($spacer * 2) ($spacer)
+}
+
+hr.bg-primary {
+  height: .15rem;
+}
+
+footer .list-group .list-group-item {
+  border: 0;
+
+  &:first-child {
+    color: $black;
+  }
+}

@@ -1,0 +1,8 @@
+// @include font-face(Graphik, assets/font/Graphik-Regular, null, opentype);
+
+@font-face {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/teikametrics/font/Graphik-Regular.otf")
+}

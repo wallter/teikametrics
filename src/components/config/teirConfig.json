@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Entrepreneur",
+    "price": {
+      "monthly": "29",
+      "yearly": "23"
+    },
+    "spend": {
+      "verb": "Up to",
+      "spend": "250"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Growth",
+    "price": {
+      "monthly": "99",
+      "yearly": "79"
+    },
+    "spend": {
+      "verb": "Up to",
+      "spend": "1,000"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Small Business",
+    "price": {
+      "monthly": "249",
+      "yearly": "199"
+    },
+    "spend": {
+      "verb": "Up to",
+      "spend": "5,000"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Large Business",
+    "price": {
+      "monthly": "499+",
+      "yearly": "399+"
+    },
+    "spend": {
+      "verb": "Over",
+      "spend": "5,000"
+    }
+  }
+]
